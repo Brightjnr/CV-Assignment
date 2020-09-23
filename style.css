@@ -1,0 +1,74 @@
+h1{
+	font-family: serif;
+	text-transform: uppercase;
+	margin-left: 250px;
+	background-color: rgba(255,255,255,0.8);
+	max-width: 150px;
+	text-align: center;
+}
+.r{	
+	padding-left: 70%;
+	align-self: auto;
+}
+.intro{
+	text-align: center;
+	
+}
+
+table{
+	margin-left: 40px;	
+}
+.forms{
+	padding: 40px;
+	background-color: red;
+	font-family: sans-serif;
+	margin: 0 auto 100px;
+	margin-top: 15%;
+	max-width: 600px;
+	max-height: 4000px;
+}
+input{
+	text-transform: uppercase;
+	color: rgba(0,0,255,0.5);
+	margin-left: 10px;
+	width: 300px;
+	font-size: 18px;
+}
+label{
+	font-size: 15px;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.5);
+	text-decoration: underline;
+}
+
+.fname{
+	margin-left: 30px;
+}
+
+.lname{
+	margin-left: 36px;
+}
+.phone{
+	margin-left: 55px;
+}
+
+.email{
+	margin-left: 60px;
+}
+.address{
+	margin-left: 30px;
+}
+
+.Submit{
+	margin-left: 25%;
+	background-color: rgba(0,255,0,0.7);
+	color: rgba(255,255,255,1);
+	width: 300px;
+	font-size: 18px;
+
+}
+select{
+	margin-left: 47px;
+}
+
+

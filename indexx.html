@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Ashesi forms</title>
+</head>
+<body>
+	<script type="text/javascript">
+	alert("Kindly fill in your Particulars")
+    
+	</script>
+
+
+<form id="form" action="cv.html" class="forms">
+	<h1>My CV</h1>
+	<table  cellspacing="30">
+		<tr><td><label for="firstname">Firstname:</label>
+	<input id=first class="fname" type="text" name="firstname" placeholder="First Name" required/></td></tr>
+		<tr><td><label for="Miiddlename">Miiddlename:</label>
+	<input id="Miiddle" class="mname" type="text" name="Miiddlename" placeholder="Miiddle name" required/></td></tr>
+	<tr><td>
+
+	<label for="lastname">Lastname:</label><input id="last" class="lname"type="text" name="lastname" placeholder="Last Name" required/></td>
+	</tr>
+	<tr>
+		<td>
+	<label for="Gender">Gender:</label>
+	<select name="Gender" value="Gender" required>
+		<option name=""><b></b></option>
+        <option name="male"><b>MALE</b></option>
+        <option name="female"><b>FEMALE</b></option>
+        <option name="Other"><b>OTHER</b></option>
+	</select>
+	</td>
+	</tr>
+	<tr></tr>
+	<tr><td>
+		<label for="phone">Phone:</label>
+	<input class="phone" type="text" name="phone" placeholder="Phone Number" required/>
+	</tr></td>
+	<tr><td>
+		<label for="email">Email:</label>
+	<input class="email" type="email" name="email" placeholder="Email" required/>
+	</tr></td>
+	<tr><td>
+		<label for="address">Address:</label>
+	<input class="address" type="text" name="address" placeholder="address" required/></td>
+	</tr>
+	<tr><td>
+	<button id="sub" class="Submit" name="Submit"><b>SUBMIT</b></button>
+	</td>
+	</tr>
+	</table>
+</form>
+</body>
+</html>
